@@ -13,7 +13,7 @@ py = sys.executable
 class issue(Tk):
     def __init__(self):
         super().__init__()
-        self.iconbitmap(r"C:\Users\yewal\Downloads\favicon.ico")
+        self.iconbitmap(rfavicon path)
         self.title('Library Admisintration')
         self.maxsize(440, 300)
 
