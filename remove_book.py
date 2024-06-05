@@ -6,7 +6,7 @@ from mysql.connector import Error
 class Rem(Tk):
     def __init__(self):
         super().__init__()
-        self.iconbitmap(r"C:\Users\yewal\Downloads\favicon.ico")
+        self.iconbitmap(rfavicon path)
         self.maxsize(400, 200)
         self.minsize(400, 200)
         self.title("Remove Book")
