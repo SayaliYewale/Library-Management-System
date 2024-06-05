@@ -10,7 +10,7 @@ py = sys.executable
 class ret(Tk):
     def __init__(self):
         super().__init__()
-        self.iconbitmap(r"C:\Users\yewal\Downloads\favicon.ico")
+        self.iconbitmap(rfavicon path)
         self.title("Return")
         self.maxsize(420,280)
         self.canvas = Canvas(width=500, height=417, bg='gray')
