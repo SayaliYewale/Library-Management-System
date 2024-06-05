@@ -13,7 +13,7 @@ py=sys.executable
 class MainWin(Tk):
     def __init__(self):
         super().__init__()
-        self.iconbitmap(r"C:\Users\yewal\Downloads\favicon.ico")
+        self.iconbitmap(rfavicon path)
         self.configure(bg='gray')
         self.canvas = Canvas(width=1366, height=768, bg='gray')
         self.canvas.pack()
