@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import mysql.connector
 from mysql.connector import Error
-#creating widow
+#creating window
 class Rem(Tk):
     def __init__(self):
         super().__init__()
