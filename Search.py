@@ -15,7 +15,7 @@ class Search(Tk):
         tanmayee.minsize(800,500)
         tanmayee.canvas = Canvas(width=800, height=500, bg='gray')
         tanmayee.canvas.pack()
-        tanmayee.iconbitmap(r"C:\Users\yewal\Downloads\favicon.ico")
+        tanmayee.iconbitmap(rFavicon path)
         l1=Label(text="Search Library",bg='gray', font=("Courier new",20,'bold')).place(x=290,y=20)
         l = Label(tanmayee, text="Search By",bg='gray', font=("Courier new", 15, 'bold')).place(x=60, y=96)
         def insert(data):
