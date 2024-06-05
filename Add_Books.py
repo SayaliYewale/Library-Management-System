@@ -10,7 +10,7 @@ py = sys.executable
 class Add(Tk):
     def __init__(self):
         super().__init__()
-        self.iconbitmap(r"C:\Users\tanmayee patil\Downloads\favicon.ico")
+        self.iconbitmap(rfavicon path)
         self.maxsize(480,360 )
         self.minsize(480,360)
         self.title('Add Book')
