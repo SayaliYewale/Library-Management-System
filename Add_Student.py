@@ -11,7 +11,7 @@ py=sys.executable
 class reg(Tk):
     def __init__(self):
         super().__init__()
-        self.iconbitmap(r"C:\Users\tanmayee patil\Downloads\favicon.ico")
+        self.iconbitmap(rFavicon path)
         self.maxsize(500, 417)
         self.minsize(500, 417)
         self.title('Add User')
